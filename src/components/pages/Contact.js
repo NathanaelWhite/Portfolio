@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <footer className="container">
+      <h1>Contact me: </h1>
         <div>
           <strong>Email:</strong>{" "}
           <a href="mailto:nathanaeltwhite@gmail.com">
@@ -14,9 +14,8 @@ const Contact = () => {
             Nathanael White
           </a>
           <strong>Github:</strong>{" "}
-          <a href="https://github.com/NathanaelWhite"></a>
+          <a href="https://github.com/NathanaelWhite">NathanaelWhite</a>
         </div>
-      </footer>
     </div>
   );
 };

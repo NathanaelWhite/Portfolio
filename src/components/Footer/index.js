@@ -14,7 +14,7 @@ function Footer() {
             Nathanael White
           </a>
           <strong>Github:</strong>{" "}
-          <a href="https://github.com/NathanaelWhite"></a>
+          <a href="https://github.com/NathanaelWhite">NathanaelWhite</a>
         </div>
       </footer>
     </div>

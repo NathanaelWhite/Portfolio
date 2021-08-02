@@ -1,18 +1,17 @@
-import React, { useState } from "react";
-import Nav from '../Nav/index';
+import React from "react";
 
 function Header() {
-  const [currentPage, handlePageChange] = useState('About');
 
   return (
+    <div>
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
           Nathanael White
         </a>
       </h2>
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
     </header>
+    </div>
   );
 }
 

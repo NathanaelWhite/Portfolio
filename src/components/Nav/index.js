@@ -1,15 +1,17 @@
-import React from "react";
+import React from 'react';
 
-function Nav(props) {
-  const tabs = ["About", "Portfolio", "Contact", "Resume"];
+function NavTabs(props) {
+  const tabs = ['About', 'Contact', 'Portfolio', 'Resume'];
   return (
     <ul className="nav nav-tabs">
-      {tabs.map((tab) => (
+      {tabs.map(tab => (
         <li className="nav-item" key={tab}>
-          <a 
-          href={"#" + tab}
-          onClick={() => props.handlePageChange(tab)}
-          className={props.currentPage === tab ? 'nav-link active' : 'nav-link'}
+          <a
+            href={'#' + tab.toLowerCase()}
+            onClick={() => props.setCurrentPage(tab)}
+            className={
+              props.currentPage === tab ? 'nav-link active' : 'nav-link'
+            }
           >
             {tab}
           </a>
@@ -19,4 +21,4 @@ function Nav(props) {
   );
 }
 
-export default Nav;
+export default NavTabs;
