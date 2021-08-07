@@ -25,12 +25,12 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="text-background">
       <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <Header />
-      <div>
+      <main>
         {renderPage(currentPage)}
-      </div>
+      </main>
       <Footer />
     </div>
   );

@@ -4,7 +4,7 @@ function Header() {
 
   return (
     <div>
-    <header className="flex-row px-1">
+    <header className="header">
       <h2>
         <a data-testid="link" href="/">
           Nathanael White
