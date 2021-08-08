@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c92fef93.chunk.css",
+    "main.js": "/portfolio/static/js/main.4c069ea3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4c069ea3.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.7fb58e91.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7fb58e91.js.map",
+    "static/js/2.7c82f285.chunk.js": "/portfolio/static/js/2.7c82f285.chunk.js",
+    "static/js/2.7c82f285.chunk.js.map": "/portfolio/static/js/2.7c82f285.chunk.js.map",
+    "static/js/3.77ece53c.chunk.js": "/portfolio/static/js/3.77ece53c.chunk.js",
+    "static/js/3.77ece53c.chunk.js.map": "/portfolio/static/js/3.77ece53c.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.c92fef93.chunk.css.map": "/portfolio/static/css/main.c92fef93.chunk.css.map",
+    "static/js/2.7c82f285.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7c82f285.chunk.js.LICENSE.txt",
+    "static/media/food-festival.PNG": "/portfolio/static/media/food-festival.e79ce5cf.PNG",
+    "static/media/index.css": "/portfolio/static/media/image.3698c839.png",
+    "static/media/jot-it.PNG": "/portfolio/static/media/jot-it.c82c8b37.PNG",
+    "static/media/note-taker.PNG": "/portfolio/static/media/note-taker.17720865.PNG",
+    "static/media/photo-port.PNG": "/portfolio/static/media/photo-port.8e5bf01f.PNG",
+    "static/media/pizza-hunt.PNG": "/portfolio/static/media/pizza-hunt.b7de1623.PNG",
+    "static/media/tech-blog.PNG": "/portfolio/static/media/tech-blog.e21911ce.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fb58e91.js",
+    "static/js/2.7c82f285.chunk.js",
+    "static/css/main.c92fef93.chunk.css",
+    "static/js/main.4c069ea3.chunk.js"
+  ]
+}
