@@ -11,6 +11,9 @@ My personal React portfolio! With pages to learn about me, see my past work, get
 - [Questions](#questions)
 - [License](#license)
 
+![portfolio-screenshot](https://user-images.githubusercontent.com/77940998/128659702-389e90de-4a92-4e2d-a5a9-39099c146bc6.png)
+
+
 ## Questions
 
 - GitHub: NathanaelWhite
