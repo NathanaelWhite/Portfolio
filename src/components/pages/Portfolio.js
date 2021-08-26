@@ -38,6 +38,12 @@ const Portfolio = () => {
       image: require("../../assets/images/siteImgs/tech-blog.PNG").default,
       link: "https://challenge-note-taker.herokuapp.com/",
     },
+    {
+      id: 7,
+      name: "Dev-Me-Up",
+      image: require("../../assets/images/siteImgs/devmeup.PNG").default,
+      link: "https://mysterious-temple-90706.herokuapp.com/",
+    }
   ];
   return (
     <div className="my-work">
