@@ -18,6 +18,10 @@ body {
   background-image: url('../src/assets/images/image.png');
 }
 
+.about {
+  font-size: 20px;
+}
+
 .text-background {
   background-color: rgba(213, 215, 216, 0.514) 
 }
