@@ -7,49 +7,49 @@ const Portfolio = () => {
       name: "Dev-Me-Up",
       image: require("../../assets/images/siteImgs/devmeup.PNG").default,
       link: "https://mysterious-temple-90706.herokuapp.com/",
-      GhLink: "https://github.com/NathanaelWhite/Dev-it-to-You"
+      GhLink: "https://github.com/NathanaelWhite/Dev-it-to-You",
     },
     {
       id: 1,
       name: "Jot it",
-      image: require('../../assets/images/siteImgs/jot-it.PNG').default,
+      image: require("../../assets/images/siteImgs/jot-it.PNG").default,
       link: "https://jotitgood.herokuapp.com/",
-      GhLink: "https://github.com/NathanaelWhite/Jot-It"
+      GhLink: "https://github.com/NathanaelWhite/Jot-It",
     },
     {
       id: 2,
       name: "Food Festival",
-      image: require('../../assets/images/siteImgs/food-festival.PNG').default,
+      image: require("../../assets/images/siteImgs/food-festival.PNG").default,
       link: "https://nathanaelwhite.github.io/food-festival/",
-      GhLink: "https://github.com/NathanaelWhite/food-festival"
+      GhLink: "https://github.com/NathanaelWhite/food-festival",
     },
     {
       id: 3,
       name: "Note-taker",
       image: require("../../assets/images/siteImgs/note-taker.PNG").default,
       link: "https://challenge-note-taker.herokuapp.com/",
-      GhLink: "https://github.com/NathanaelWhite/Challenge-Note-Taker"
+      GhLink: "https://github.com/NathanaelWhite/Challenge-Note-Taker",
     },
     {
       id: 4,
       name: "Photo-port",
       image: require("../../assets/images/siteImgs/photo-port.PNG").default,
       link: "https://nathanaelwhite.github.io/photo-port/",
-      GhLink: "https://github.com/NathanaelWhite/photo-port"
+      GhLink: "https://github.com/NathanaelWhite/photo-port",
     },
     {
       id: 5,
       name: "Pizza-hunt",
       image: require("../../assets/images/siteImgs/pizza-hunt.PNG").default,
       link: "https://nameless-forest-20765.herokuapp.com/",
-      GhLink: "https://github.com/NathanaelWhite/pizza-hunt"
+      GhLink: "https://github.com/NathanaelWhite/pizza-hunt",
     },
     {
       id: 6,
       name: "Tech-blog",
       image: require("../../assets/images/siteImgs/tech-blog.PNG").default,
       link: "https://salty-mesa-11111.herokuapp.com/",
-      GhLink: "https://github.com/NathanaelWhite/tech-blog-mvc"
+      GhLink: "https://github.com/NathanaelWhite/tech-blog-mvc",
     },
   ];
   return (
@@ -58,12 +58,16 @@ const Portfolio = () => {
       {sites.map((site) => (
         <li className="container" key={site.id}>
           <h3>{site.name}</h3>
-          <p>{site.GhLink}</p>
+          <a href={site.GhLink} target="_blank" className="gh-link">
+            Github
+          </a>
+          <br></br>
+          <a href={site.link} className="gh-link">
+            Live
+          </a>
           <p>
             {" "}
-            <a href={site.link}>
-              <img className="img-thumbnail" src={site.image} alt={site.name} />
-            </a>
+            <img className="img-thumbnail" src={site.image} alt={site.name} />
           </p>
         </li>
       ))}

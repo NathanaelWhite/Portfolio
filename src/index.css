@@ -45,6 +45,10 @@ header a {
   flex-wrap: wrap;
 }
 
+.gh-link {
+  font-size: 25px;
+}
+
 button {
   font-size: 1rem;
   text-decoration: none;
